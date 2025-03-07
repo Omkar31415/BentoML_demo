@@ -1,0 +1,10 @@
+service: "service.py:svc"
+labels:
+  owner: Omkar
+  project: MLDemo
+include:
+- "*.py"
+python:
+  packages:
+    - scikit-learn
+    - pandas
